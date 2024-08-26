@@ -20,6 +20,10 @@
 		04A911042C7C9354007CB025 /* AddNewListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A911032C7C9354007CB025 /* AddNewListView.swift */; };
 		04A911062C7C9510007CB025 /* ColorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A911052C7C9510007CB025 /* ColorListView.swift */; };
 		04A911092C7C95F1007CB025 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A911082C7C95F1007CB025 /* Constants.swift */; };
+		04A9110C2C7CBEBC007CB025 /* NSColorTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9110B2C7CBEBC007CB025 /* NSColorTransformer.swift */; };
+		04A9110E2C7CC220007CB025 /* MyListsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9110D2C7CC220007CB025 /* MyListsViewModel.swift */; };
+		04A911102C7CC37D007CB025 /* MyListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9110F2C7CC37D007CB025 /* MyListViewModel.swift */; };
+		04A911122C7CC55A007CB025 /* MyListsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A911112C7CC55A007CB025 /* MyListsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +42,10 @@
 		04A911032C7C9354007CB025 /* AddNewListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewListView.swift; sourceTree = "<group>"; };
 		04A911052C7C9510007CB025 /* ColorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorListView.swift; sourceTree = "<group>"; };
 		04A911082C7C95F1007CB025 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		04A9110B2C7CBEBC007CB025 /* NSColorTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSColorTransformer.swift; sourceTree = "<group>"; };
+		04A9110D2C7CC220007CB025 /* MyListsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListsViewModel.swift; sourceTree = "<group>"; };
+		04A9110F2C7CC37D007CB025 /* MyListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListViewModel.swift; sourceTree = "<group>"; };
+		04A911112C7CC55A007CB025 /* MyListsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +78,7 @@
 		04A910DF2C7C8C14007CB025 /* RemindersMacOS */ = {
 			isa = PBXGroup;
 			children = (
+				04A9110A2C7CBEAD007CB025 /* Transformers */,
 				04A911072C7C95E3007CB025 /* Utils */,
 				04A910FE2C7C9155007CB025 /* ViewModels */,
 				04A910FB2C7C901A007CB025 /* Managers */,
@@ -107,6 +116,7 @@
 				04A910F32C7C8C7B007CB025 /* SideBarView.swift */,
 				04A911032C7C9354007CB025 /* AddNewListView.swift */,
 				04A911052C7C9510007CB025 /* ColorListView.swift */,
+				04A911112C7CC55A007CB025 /* MyListsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -132,6 +142,8 @@
 			isa = PBXGroup;
 			children = (
 				04A910FF2C7C9163007CB025 /* AddNewListViewModel.swift */,
+				04A9110D2C7CC220007CB025 /* MyListsViewModel.swift */,
+				04A9110F2C7CC37D007CB025 /* MyListViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -142,6 +154,14 @@
 				04A911082C7C95F1007CB025 /* Constants.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		04A9110A2C7CBEAD007CB025 /* Transformers */ = {
+			isa = PBXGroup;
+			children = (
+				04A9110B2C7CBEBC007CB025 /* NSColorTransformer.swift */,
+			);
+			path = Transformers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,7 +234,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A9110E2C7CC220007CB025 /* MyListsViewModel.swift in Sources */,
 				04A910FD2C7C9025007CB025 /* CoreDataManager.swift in Sources */,
+				04A911102C7CC37D007CB025 /* MyListViewModel.swift in Sources */,
 				04A911092C7C95F1007CB025 /* Constants.swift in Sources */,
 				04A911002C7C9163007CB025 /* AddNewListViewModel.swift in Sources */,
 				04A910F42C7C8C7B007CB025 /* SideBarView.swift in Sources */,
@@ -223,7 +245,9 @@
 				04A910F72C7C8DAE007CB025 /* RemindersModel.xcdatamodeld in Sources */,
 				04A910E12C7C8C14007CB025 /* RemindersMacOSApp.swift in Sources */,
 				04A910F12C7C8C2E007CB025 /* HomeScreen.swift in Sources */,
+				04A911122C7CC55A007CB025 /* MyListsView.swift in Sources */,
 				04A911022C7C91FE007CB025 /* BaseModel.swift in Sources */,
+				04A9110C2C7CBEBC007CB025 /* NSColorTransformer.swift in Sources */,
 				04A910FA2C7C8E84007CB025 /* MyList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
