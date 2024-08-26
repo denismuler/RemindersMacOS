@@ -25,6 +25,12 @@ struct MyListsView: View {
                             .font(.title)
                             .foregroundColor(myList.color)
                         Text(myList.name)
+                    }.contextMenu {
+                        Button {
+                            viewModel.delete(myList)
+                        } label: {
+                            Label("Delete", systemImage: "trash")
+                        }
                     }
                 }
             }
