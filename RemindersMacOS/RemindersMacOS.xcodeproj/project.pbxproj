@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0445DC6F2C8F3FFB00416527 /* MyListItemsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0445DC6E2C8F3FFA00416527 /* MyListItemsHeaderView.swift */; };
+		0445DC712C8F413000416527 /* MyListItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0445DC702C8F413000416527 /* MyListItemsView.swift */; };
 		04A910E12C7C8C14007CB025 /* RemindersMacOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A910E02C7C8C14007CB025 /* RemindersMacOSApp.swift */; };
 		04A910E52C7C8C16007CB025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A910E42C7C8C16007CB025 /* Assets.xcassets */; };
 		04A910E82C7C8C16007CB025 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A910E72C7C8C16007CB025 /* Preview Assets.xcassets */; };
@@ -27,6 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0445DC6E2C8F3FFA00416527 /* MyListItemsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListItemsHeaderView.swift; sourceTree = "<group>"; };
+		0445DC702C8F413000416527 /* MyListItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListItemsView.swift; sourceTree = "<group>"; };
 		04A910DD2C7C8C14007CB025 /* RemindersMacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemindersMacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A910E02C7C8C14007CB025 /* RemindersMacOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersMacOSApp.swift; sourceTree = "<group>"; };
 		04A910E42C7C8C16007CB025 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -117,6 +121,8 @@
 				04A911032C7C9354007CB025 /* AddNewListView.swift */,
 				04A911052C7C9510007CB025 /* ColorListView.swift */,
 				04A911112C7CC55A007CB025 /* MyListsView.swift */,
+				0445DC702C8F413000416527 /* MyListItemsView.swift */,
+				0445DC6E2C8F3FFA00416527 /* MyListItemsHeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -234,6 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0445DC712C8F413000416527 /* MyListItemsView.swift in Sources */,
 				04A9110E2C7CC220007CB025 /* MyListsViewModel.swift in Sources */,
 				04A910FD2C7C9025007CB025 /* CoreDataManager.swift in Sources */,
 				04A911102C7CC37D007CB025 /* MyListViewModel.swift in Sources */,
@@ -248,6 +255,7 @@
 				04A911122C7CC55A007CB025 /* MyListsView.swift in Sources */,
 				04A911022C7C91FE007CB025 /* BaseModel.swift in Sources */,
 				04A9110C2C7CBEBC007CB025 /* NSColorTransformer.swift in Sources */,
+				0445DC6F2C8F3FFB00416527 /* MyListItemsHeaderView.swift in Sources */,
 				04A910FA2C7C8E84007CB025 /* MyList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
