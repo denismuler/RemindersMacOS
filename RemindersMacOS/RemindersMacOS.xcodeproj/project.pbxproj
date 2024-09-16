@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040298BC2C98780F003F0C0B /* MyListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040298BB2C98780F003F0C0B /* MyListItem.swift */; };
 		0445DC6F2C8F3FFB00416527 /* MyListItemsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0445DC6E2C8F3FFA00416527 /* MyListItemsHeaderView.swift */; };
 		0445DC712C8F413000416527 /* MyListItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0445DC702C8F413000416527 /* MyListItemsView.swift */; };
 		0445DC732C8F428A00416527 /* MyListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0445DC722C8F428A00416527 /* MyListItemViewModel.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		040298BB2C98780F003F0C0B /* MyListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListItem.swift; sourceTree = "<group>"; };
 		0445DC6E2C8F3FFA00416527 /* MyListItemsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListItemsHeaderView.swift; sourceTree = "<group>"; };
 		0445DC702C8F413000416527 /* MyListItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListItemsView.swift; sourceTree = "<group>"; };
 		0445DC722C8F428A00416527 /* MyListItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListItemViewModel.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				04A910F92C7C8E84007CB025 /* MyList.swift */,
 				04A911012C7C91FE007CB025 /* BaseModel.swift */,
 				0445DC742C8F42FA00416527 /* DueDate.swift */,
+				040298BB2C98780F003F0C0B /* MyListItem.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				04A910F72C7C8DAE007CB025 /* RemindersModel.xcdatamodeld in Sources */,
 				04A910E12C7C8C14007CB025 /* RemindersMacOSApp.swift in Sources */,
 				046D4E2E2C90806800D648D7 /* AddNewListItemView.swift in Sources */,
+				040298BC2C98780F003F0C0B /* MyListItem.swift in Sources */,
 				04A910F12C7C8C2E007CB025 /* HomeScreen.swift in Sources */,
 				0445DC782C8F432200416527 /* Date+Extensions.swift in Sources */,
 				0445DC752C8F42FA00416527 /* DueDate.swift in Sources */,

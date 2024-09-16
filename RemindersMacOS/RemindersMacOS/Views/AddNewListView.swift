@@ -11,7 +11,7 @@ struct AddNewListView: View {
     
     @Environment(\.presentationMode) var presentationMode
     @ObservedObject private var viewModel: AddNewListViewModel
-    
+        
     init(viewModel: AddNewListViewModel) {
         self.viewModel = viewModel
     }
