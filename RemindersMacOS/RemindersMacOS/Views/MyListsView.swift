@@ -24,7 +24,7 @@ struct MyListsView: View {
                     NavigationLink {
                         MyListItemsHeaderView(name: myList.name, count: 6, color: myList.color)
                         
-                        MyListItemsView(onItemAdded: { title, dueDate in
+                        MyListItemsView(items: myList.items, onItemAdded: { title, dueDate in
                             viewModel.saveTo(list: myList, title: title, dueDate: dueDate)
                         })
                     } label: {
