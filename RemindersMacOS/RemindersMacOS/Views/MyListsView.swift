@@ -26,7 +26,7 @@ struct MyListsView: View {
                         
                         MyListItemsView(items: myList.items, onItemAdded: { title, dueDate in
                             viewModel.saveTo(list: myList, title: title, dueDate: dueDate)
-                        })
+                        }, onItemDeleted: viewModel.deleteItem)
                     } label: {
                         HStack {
                             Image(systemName: Constants.Icons.line3HorizontalCircleFill)

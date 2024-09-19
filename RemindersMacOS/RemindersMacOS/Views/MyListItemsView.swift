@@ -10,13 +10,19 @@ import SwiftUI
 struct MyListItemsView: View {
     
     var items: [MyListItemViewModel]
+    
     typealias ItemAdded = ((String, Date?) -> Void)?
+    typealias ItemDeleted = ((MyListItemViewModel) -> Void)?
     
     var onItemAdded: ItemAdded
+    var onItemDeleted: ItemDeleted
     
-    init(items: [MyListItemViewModel], onItemAdded: ItemAdded = nil) {
+    init(items: [MyListItemViewModel], onItemAdded: ItemAdded = nil,
+         onItemDeleted: ItemDeleted = nil
+    ) {
         self.onItemAdded = onItemAdded
         self.items = items
+        self.onItemDeleted = onItemDeleted
     }
     
     
@@ -26,7 +32,10 @@ struct MyListItemsView: View {
             List {
                 
                 ForEach(items, id: \.listItemid) { item in
-                    ListItemCell(item: item)
+                    ListItemCell(item: item, onListItemDeleted: { item in
+                        onItemDeleted?(item)
+                        
+                    })
                 }
                 
                 AddNewListItemView { title, dueDate in
