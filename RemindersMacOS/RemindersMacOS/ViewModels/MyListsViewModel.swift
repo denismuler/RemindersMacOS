@@ -66,6 +66,10 @@ class MyListsViewModel: NSObject, ObservableObject {
             try? myList.delete()
         }
     }
+    
+    func updateItem() {
+        
+    }
 }
 
 extension MyListsViewModel: NSFetchedResultsControllerDelegate {

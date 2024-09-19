@@ -16,6 +16,9 @@
 		046D4E2E2C90806800D648D7 /* AddNewListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D4E2D2C90806800D648D7 /* AddNewListItemView.swift */; };
 		046D4E302C90823E00D648D7 /* DueDateSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D4E2F2C90823E00D648D7 /* DueDateSelectionView.swift */; };
 		0484643D2C9C7FBD00FF429E /* ListItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0484643C2C9C7FBD00FF429E /* ListItemCell.swift */; };
+		0484643F2C9C9E9800FF429E /* EditListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0484643E2C9C9E9800FF429E /* EditListItemView.swift */; };
+		048464412C9C9F5100FF429E /* EditListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048464402C9C9F5100FF429E /* EditListItemViewModel.swift */; };
+		048464432C9CA04100FF429E /* CalendarButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048464422C9CA04100FF429E /* CalendarButtonView.swift */; };
 		04A910E12C7C8C14007CB025 /* RemindersMacOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A910E02C7C8C14007CB025 /* RemindersMacOSApp.swift */; };
 		04A910E52C7C8C16007CB025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A910E42C7C8C16007CB025 /* Assets.xcassets */; };
 		04A910E82C7C8C16007CB025 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A910E72C7C8C16007CB025 /* Preview Assets.xcassets */; };
@@ -45,6 +48,9 @@
 		046D4E2D2C90806800D648D7 /* AddNewListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewListItemView.swift; sourceTree = "<group>"; };
 		046D4E2F2C90823E00D648D7 /* DueDateSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DueDateSelectionView.swift; sourceTree = "<group>"; };
 		0484643C2C9C7FBD00FF429E /* ListItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemCell.swift; sourceTree = "<group>"; };
+		0484643E2C9C9E9800FF429E /* EditListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditListItemView.swift; sourceTree = "<group>"; };
+		048464402C9C9F5100FF429E /* EditListItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditListItemViewModel.swift; sourceTree = "<group>"; };
+		048464422C9CA04100FF429E /* CalendarButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarButtonView.swift; sourceTree = "<group>"; };
 		04A910DD2C7C8C14007CB025 /* RemindersMacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemindersMacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A910E02C7C8C14007CB025 /* RemindersMacOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersMacOSApp.swift; sourceTree = "<group>"; };
 		04A910E42C7C8C16007CB025 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -141,7 +147,9 @@
 			isa = PBXGroup;
 			children = (
 				04A910F32C7C8C7B007CB025 /* SideBarView.swift */,
+				048464422C9CA04100FF429E /* CalendarButtonView.swift */,
 				04A911032C7C9354007CB025 /* AddNewListView.swift */,
+				0484643E2C9C9E9800FF429E /* EditListItemView.swift */,
 				04A911052C7C9510007CB025 /* ColorListView.swift */,
 				04A911112C7CC55A007CB025 /* MyListsView.swift */,
 				0445DC702C8F413000416527 /* MyListItemsView.swift */,
@@ -177,6 +185,7 @@
 			children = (
 				04A910FF2C7C9163007CB025 /* AddNewListViewModel.swift */,
 				04A9110D2C7CC220007CB025 /* MyListsViewModel.swift */,
+				048464402C9C9F5100FF429E /* EditListItemViewModel.swift */,
 				04A9110F2C7CC37D007CB025 /* MyListViewModel.swift */,
 				0445DC722C8F428A00416527 /* MyListItemViewModel.swift */,
 			);
@@ -270,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0445DC712C8F413000416527 /* MyListItemsView.swift in Sources */,
+				048464412C9C9F5100FF429E /* EditListItemViewModel.swift in Sources */,
 				04A9110E2C7CC220007CB025 /* MyListsViewModel.swift in Sources */,
 				04A910FD2C7C9025007CB025 /* CoreDataManager.swift in Sources */,
 				0445DC732C8F428A00416527 /* MyListItemViewModel.swift in Sources */,
@@ -282,11 +292,13 @@
 				04A911042C7C9354007CB025 /* AddNewListView.swift in Sources */,
 				04A911062C7C9510007CB025 /* ColorListView.swift in Sources */,
 				04A910F72C7C8DAE007CB025 /* RemindersModel.xcdatamodeld in Sources */,
+				048464432C9CA04100FF429E /* CalendarButtonView.swift in Sources */,
 				04A910E12C7C8C14007CB025 /* RemindersMacOSApp.swift in Sources */,
 				046D4E2E2C90806800D648D7 /* AddNewListItemView.swift in Sources */,
 				040298BC2C98780F003F0C0B /* MyListItem.swift in Sources */,
 				04A910F12C7C8C2E007CB025 /* HomeScreen.swift in Sources */,
 				0445DC782C8F432200416527 /* Date+Extensions.swift in Sources */,
+				0484643F2C9C9E9800FF429E /* EditListItemView.swift in Sources */,
 				0445DC752C8F42FA00416527 /* DueDate.swift in Sources */,
 				04A911122C7CC55A007CB025 /* MyListsView.swift in Sources */,
 				04A911022C7C91FE007CB025 /* BaseModel.swift in Sources */,
