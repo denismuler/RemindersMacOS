@@ -15,6 +15,7 @@
 		0445DC782C8F432200416527 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0445DC772C8F432200416527 /* Date+Extensions.swift */; };
 		046D4E2E2C90806800D648D7 /* AddNewListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D4E2D2C90806800D648D7 /* AddNewListItemView.swift */; };
 		046D4E302C90823E00D648D7 /* DueDateSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D4E2F2C90823E00D648D7 /* DueDateSelectionView.swift */; };
+		0484643D2C9C7FBD00FF429E /* ListItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0484643C2C9C7FBD00FF429E /* ListItemCell.swift */; };
 		04A910E12C7C8C14007CB025 /* RemindersMacOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A910E02C7C8C14007CB025 /* RemindersMacOSApp.swift */; };
 		04A910E52C7C8C16007CB025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A910E42C7C8C16007CB025 /* Assets.xcassets */; };
 		04A910E82C7C8C16007CB025 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A910E72C7C8C16007CB025 /* Preview Assets.xcassets */; };
@@ -43,6 +44,7 @@
 		0445DC772C8F432200416527 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		046D4E2D2C90806800D648D7 /* AddNewListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewListItemView.swift; sourceTree = "<group>"; };
 		046D4E2F2C90823E00D648D7 /* DueDateSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DueDateSelectionView.swift; sourceTree = "<group>"; };
+		0484643C2C9C7FBD00FF429E /* ListItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemCell.swift; sourceTree = "<group>"; };
 		04A910DD2C7C8C14007CB025 /* RemindersMacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemindersMacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A910E02C7C8C14007CB025 /* RemindersMacOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersMacOSApp.swift; sourceTree = "<group>"; };
 		04A910E42C7C8C16007CB025 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				0445DC6E2C8F3FFA00416527 /* MyListItemsHeaderView.swift */,
 				046D4E2D2C90806800D648D7 /* AddNewListItemView.swift */,
 				046D4E2F2C90823E00D648D7 /* DueDateSelectionView.swift */,
+				0484643C2C9C7FBD00FF429E /* ListItemCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				04A911092C7C95F1007CB025 /* Constants.swift in Sources */,
 				04A911002C7C9163007CB025 /* AddNewListViewModel.swift in Sources */,
 				04A910F42C7C8C7B007CB025 /* SideBarView.swift in Sources */,
+				0484643D2C9C7FBD00FF429E /* ListItemCell.swift in Sources */,
 				046D4E302C90823E00D648D7 /* DueDateSelectionView.swift in Sources */,
 				04A911042C7C9354007CB025 /* AddNewListView.swift in Sources */,
 				04A911062C7C9510007CB025 /* ColorListView.swift in Sources */,

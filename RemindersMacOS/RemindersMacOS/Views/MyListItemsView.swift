@@ -26,7 +26,7 @@ struct MyListItemsView: View {
             List {
                 
                 ForEach(items, id: \.listItemid) { item in
-                    Text(item.title)
+                    ListItemCell(item: item)
                 }
                 
                 AddNewListItemView { title, dueDate in
