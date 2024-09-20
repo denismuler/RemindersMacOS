@@ -19,6 +19,8 @@
 		0484643F2C9C9E9800FF429E /* EditListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0484643E2C9C9E9800FF429E /* EditListItemView.swift */; };
 		048464412C9C9F5100FF429E /* EditListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048464402C9C9F5100FF429E /* EditListItemViewModel.swift */; };
 		048464432C9CA04100FF429E /* CalendarButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048464422C9CA04100FF429E /* CalendarButtonView.swift */; };
+		048464452C9DB8A800FF429E /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048464442C9DB8A800FF429E /* Delay.swift */; };
+		048464472C9DBA9B00FF429E /* AllCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048464462C9DBA9B00FF429E /* AllCountView.swift */; };
 		04A910E12C7C8C14007CB025 /* RemindersMacOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A910E02C7C8C14007CB025 /* RemindersMacOSApp.swift */; };
 		04A910E52C7C8C16007CB025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A910E42C7C8C16007CB025 /* Assets.xcassets */; };
 		04A910E82C7C8C16007CB025 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A910E72C7C8C16007CB025 /* Preview Assets.xcassets */; };
@@ -51,6 +53,8 @@
 		0484643E2C9C9E9800FF429E /* EditListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditListItemView.swift; sourceTree = "<group>"; };
 		048464402C9C9F5100FF429E /* EditListItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditListItemViewModel.swift; sourceTree = "<group>"; };
 		048464422C9CA04100FF429E /* CalendarButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarButtonView.swift; sourceTree = "<group>"; };
+		048464442C9DB8A800FF429E /* Delay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
+		048464462C9DBA9B00FF429E /* AllCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCountView.swift; sourceTree = "<group>"; };
 		04A910DD2C7C8C14007CB025 /* RemindersMacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemindersMacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A910E02C7C8C14007CB025 /* RemindersMacOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersMacOSApp.swift; sourceTree = "<group>"; };
 		04A910E42C7C8C16007CB025 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -147,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				04A910F32C7C8C7B007CB025 /* SideBarView.swift */,
+				048464462C9DBA9B00FF429E /* AllCountView.swift */,
 				048464422C9CA04100FF429E /* CalendarButtonView.swift */,
 				04A911032C7C9354007CB025 /* AddNewListView.swift */,
 				0484643E2C9C9E9800FF429E /* EditListItemView.swift */,
@@ -196,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				04A911082C7C95F1007CB025 /* Constants.swift */,
+				048464442C9DB8A800FF429E /* Delay.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -303,6 +309,8 @@
 				04A911122C7CC55A007CB025 /* MyListsView.swift in Sources */,
 				04A911022C7C91FE007CB025 /* BaseModel.swift in Sources */,
 				04A9110C2C7CBEBC007CB025 /* NSColorTransformer.swift in Sources */,
+				048464452C9DB8A800FF429E /* Delay.swift in Sources */,
+				048464472C9DBA9B00FF429E /* AllCountView.swift in Sources */,
 				0445DC6F2C8F3FFB00416527 /* MyListItemsHeaderView.swift in Sources */,
 				04A910FA2C7C8E84007CB025 /* MyList.swift in Sources */,
 			);

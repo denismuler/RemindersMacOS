@@ -13,16 +13,19 @@ struct MyListItemsView: View {
     
     typealias ItemAdded = ((String, Date?) -> Void)?
     typealias ItemDeleted = ((MyListItemViewModel) -> Void)?
+    typealias ItemCompleted = ((MyListItemViewModel) -> Void)?
     
     var onItemAdded: ItemAdded
     var onItemDeleted: ItemDeleted
+    var onItemCompleted: ItemCompleted
     
     init(items: [MyListItemViewModel], onItemAdded: ItemAdded = nil,
-         onItemDeleted: ItemDeleted = nil
+         onItemDeleted: ItemDeleted = nil, onItemCompleted: ItemCompleted = nil
     ) {
         self.onItemAdded = onItemAdded
         self.items = items
         self.onItemDeleted = onItemDeleted
+        self.onItemCompleted = onItemCompleted
     }
     
     
@@ -34,7 +37,8 @@ struct MyListItemsView: View {
                 ForEach(items, id: \.listItemid) { item in
                     ListItemCell(item: item, onListItemDeleted: { item in
                         onItemDeleted?(item)
-                        
+                    }, onListItemCompleted: { item in
+                        onItemCompleted?(item)
                     })
                 }
                 
